@@ -14,6 +14,9 @@
 		0454B7D81CE471FD00DEDDE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0454B7D61CE471FD00DEDDE7 /* LaunchScreen.storyboard */; };
 		0454B7E31CE471FD00DEDDE7 /* RequestDataApiSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454B7E21CE471FD00DEDDE7 /* RequestDataApiSwiftTests.swift */; };
 		0454B7EE1CE471FD00DEDDE7 /* RequestDataApiSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454B7ED1CE471FD00DEDDE7 /* RequestDataApiSwiftUITests.swift */; };
+		0454B7FD1CE4726300DEDDE7 /* RequsetHttpClassSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454B7FC1CE4726300DEDDE7 /* RequsetHttpClassSwift.swift */; };
+		0454B7FF1CE472EC00DEDDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0454B7FE1CE472EC00DEDDE7 /* Foundation.framework */; };
+		0454B8011CE478FD00DEDDE7 /* RequestDataApiSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454B8001CE478FD00DEDDE7 /* RequestDataApiSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0454B7E91CE471FD00DEDDE7 /* RequestDataApiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestDataApiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0454B7ED1CE471FD00DEDDE7 /* RequestDataApiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDataApiSwiftUITests.swift; sourceTree = "<group>"; };
 		0454B7EF1CE471FD00DEDDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0454B7FC1CE4726300DEDDE7 /* RequsetHttpClassSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequsetHttpClassSwift.swift; sourceTree = "<group>"; };
+		0454B7FE1CE472EC00DEDDE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0454B8001CE478FD00DEDDE7 /* RequestDataApiSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDataApiSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0454B7FF1CE472EC00DEDDE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		0454B7C11CE471FD00DEDDE7 = {
 			isa = PBXGroup;
 			children = (
+				0454B7FE1CE472EC00DEDDE7 /* Foundation.framework */,
 				0454B7CC1CE471FD00DEDDE7 /* RequestDataApiSwift */,
 				0454B7E11CE471FD00DEDDE7 /* RequestDataApiSwiftTests */,
 				0454B7EC1CE471FD00DEDDE7 /* RequestDataApiSwiftUITests */,
@@ -97,6 +105,7 @@
 		0454B7CC1CE471FD00DEDDE7 /* RequestDataApiSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0454B7FB1CE4720D00DEDDE7 /* RequestDataApi */,
 				0454B7CD1CE471FD00DEDDE7 /* AppDelegate.swift */,
 				0454B7CF1CE471FD00DEDDE7 /* ViewController.swift */,
 				0454B7D11CE471FD00DEDDE7 /* Main.storyboard */,
@@ -123,6 +132,15 @@
 				0454B7EF1CE471FD00DEDDE7 /* Info.plist */,
 			);
 			path = RequestDataApiSwiftUITests;
+			sourceTree = "<group>";
+		};
+		0454B7FB1CE4720D00DEDDE7 /* RequestDataApi */ = {
+			isa = PBXGroup;
+			children = (
+				0454B7FC1CE4726300DEDDE7 /* RequsetHttpClassSwift.swift */,
+				0454B8001CE478FD00DEDDE7 /* RequestDataApiSwift.swift */,
+			);
+			name = RequestDataApi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +276,8 @@
 			files = (
 				0454B7D01CE471FD00DEDDE7 /* ViewController.swift in Sources */,
 				0454B7CE1CE471FD00DEDDE7 /* AppDelegate.swift in Sources */,
+				0454B8011CE478FD00DEDDE7 /* RequestDataApiSwift.swift in Sources */,
+				0454B7FD1CE4726300DEDDE7 /* RequsetHttpClassSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
